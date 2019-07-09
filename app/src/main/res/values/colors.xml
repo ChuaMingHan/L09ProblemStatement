@@ -1,0 +1,9 @@
+package sg.edu.rp.c346.demoservice;
+
+    import android.app.Service;
+
+    public class MyService extends Service {
+
+    boolean started;
+
+    @Overridepublic IBinder onBind(Intent intent) {//
